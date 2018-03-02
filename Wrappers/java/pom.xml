@@ -61,36 +61,6 @@
         </repository>
     </distributionManagement>
 
-    <dependencies>
-        <!--Toxiclibs already packaged, we distribute -->
-        <dependency>
-            <groupId>org.clojars.hozumi</groupId>
-            <artifactId>toxiclibscore</artifactId>
-            <version>0022</version>
-        </dependency>
-     
-        
-        <!--Processing core-->
-        <dependency>
-            <groupId>org.processing</groupId>
-            <artifactId>core</artifactId>
-            <version>3.3.6</version>
-        </dependency>
-        
-        <!--Processing OpenGL-->
-        <dependency>
-            <groupId>org.jogamp.jogl</groupId>
-            <artifactId>jogl</artifactId>
-            <version>2.3.2</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>org.jogamp.jogl</groupId>
-            <artifactId>jogl-all</artifactId>
-            <version>2.3.2</version>
-        </dependency>
-    </dependencies>
-    
     <reporting>
         <plugins>
             <plugin>
