@@ -28,3 +28,4 @@ local.properties
 build.android.log
 gen/
 Packaging/Final/
+/Wrappers/java/target/
